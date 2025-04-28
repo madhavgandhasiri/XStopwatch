@@ -30,7 +30,7 @@ function Stopwatch() {
 
   return (
     <div>
-      <h1>StopWatch</h1>
+      <h1>Stopwatch</h1>
       <h3>
         Time: {displayMinutes}:
         {String(displaySeconds).padStart(2, "0")}
